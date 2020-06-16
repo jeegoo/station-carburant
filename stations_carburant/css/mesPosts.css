@@ -1,0 +1,68 @@
+
+img{
+  width: 50px;
+}
+
+.post{
+  position: relative;
+  margin: auto;
+  width: 40%;
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+
+
+.contenu_post{
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  bottom:40%;
+
+}
+
+.date_post{
+   position: absolute;
+   top:-8px;
+   left: 10%;
+   background-color: white;
+
+
+}
+.dislike_post,.like_post,.delete_post,.nbdislikes_post,.nblikes_post{
+    position: absolute;
+    width: 50px;
+    right:22%;
+    bottom: 5%;
+}
+.dislike_post{
+  right: 10%;
+  bottom: 14%;
+
+}
+
+.delete_post{
+  right: 0%;
+  bottom: 14%;
+}
+
+.dislike_post a img,.delete_post a img{
+   width: 35px;
+
+}
+
+.remove{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.nbdislikes_post{
+   right: 11%;
+}
+
+#error{
+  text-align: center;
+  color: red;
+
+}
